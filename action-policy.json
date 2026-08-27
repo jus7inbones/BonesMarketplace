@@ -1,0 +1,20 @@
+{
+  "view_listing": [
+    "viewer",
+    "operator",
+    "administrator"
+  ],
+  "message": [
+    "operator",
+    "administrator"
+  ],
+  "edit": [
+    "administrator"
+  ],
+  "delete": [
+    "administrator"
+  ],
+  "export": [
+    "administrator"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "approval_checks": [
+    {
+      "item": "Dashboard theme matches supplied stylesheet palette/typography",
+      "status": "READY"
+    },
+    {
+      "item": "Marketplace-only scope visible",
+      "status": "READY"
+    },
+    {
+      "item": "Default-deny policy represented in config and UI",
+      "status": "READY"
+    },
+    {
+      "item": "Audit log view works in demo",
+      "status": "READY"
+    },
+    {
+      "item": "Kill-session UI lock works in demo",
+      "status": "READY"
+    },
+    {
+      "item": "Live Meta Marketplace connectivity",
+      "status": "NOT_CONNECTED_BY_DESIGN"
+    }
+  ]
+}

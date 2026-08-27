@@ -1,0 +1,21 @@
+{
+  "mode": "default-deny",
+  "rules": [
+    {
+      "match": "https://www.facebook.com/marketplace/**",
+      "action": "allow"
+    },
+    {
+      "match": "https://www.facebook.com/**",
+      "action": "deny"
+    },
+    {
+      "match": "http://**",
+      "action": "deny"
+    },
+    {
+      "match": "https://**",
+      "action": "deny"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "product": "Bones Marketplace Portal",
+  "version": "1.0.0",
+  "security_model": "default-deny",
+  "allowed": {
+    "origins": [
+      "https://www.facebook.com"
+    ],
+    "path_prefixes": [
+      "/marketplace/"
+    ]
+  },
+  "denied_categories": [
+    "facebook-feed",
+    "facebook-groups",
+    "facebook-profile",
+    "facebook-watch",
+    "unapproved-facebook-pages",
+    "external-domains"
+  ],
+  "navigation": {
+    "external": "deny",
+    "new_windows": "deny",
+    "popups": "deny",
+    "unapproved_redirects": "deny"
+  },
+  "integration_boundary": "No authentication bypass. Live Marketplace connectivity requires an authorized Meta integration or permitted authenticated browser workflow."
+}

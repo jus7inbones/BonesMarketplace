@@ -1,0 +1,7 @@
+{
+  "isolated_session": true,
+  "admin_only_shell": true,
+  "reauth_for_policy_change": true,
+  "session_timeout_minutes": 30,
+  "kill_switch": true
+}

@@ -1,0 +1,7 @@
+{
+  "app_name": "Bones Marketplace Portal",
+  "version": "1.0.0",
+  "theme_source": "assets/jBsheets.css",
+  "start_view": "overview",
+  "scope_label": "MARKETPLACE ONLY"
+}

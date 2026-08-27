@@ -1,0 +1,39 @@
+/* ==========================================================================
+   JUSTINBONES STYLESHEET - jB_Styles.css
+   Version: v1.1.3
+   Target Font: "Roboto", "Roboto Mono", monospace
+   Effect: Universal Text Weight & Style Animation Matrix (cray)
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --font-portfolio: "Roboto", "Roboto Mono", monospace;
+  --bg-experiment: #00ffa5;
+  --color-experiment: #203e86;
+}
+
+* {
+  font-family: var(--font-portfolio);
+}
+
+/* 50-Step Dynamic Keyframe Matrix */
+@keyframes cray {
+  0% { font-weight: 100; font-style: normal; text-decoration: none; text-transform: none; }
+  10% { font-weight: 600; font-style: italic; text-decoration: none; text-transform: uppercase; }
+  20% { font-weight: 400; font-style: italic; text-decoration: underline; text-transform: none; }
+  30% { font-weight: 100; font-style: normal; text-decoration: none; text-transform: none; }
+  40% { font-weight: 500; font-style: italic; text-decoration: line-through; text-transform: uppercase; }
+  50% { font-weight: 400; font-style: normal; text-decoration: none; text-transform: none; }
+  60% { font-weight: 300; font-style: italic; text-decoration: underline; text-transform: lowercase; }
+  70% { font-weight: 500; font-style: normal; text-decoration: none; text-transform: capitalize; }
+  80% { font-weight: 200; font-style: italic; text-decoration: line-through; text-transform: uppercase; }
+  90% { font-weight: 600; font-style: normal; text-decoration: none; text-transform: none; }
+  100% { font-weight: 100; font-style: italic; text-decoration: underline; text-transform: lowercase; }
+}
+
+.jb-styles-global .animated-title {
+  font-family: var(--font-portfolio) !important;
+  animation: cray 6s infinite steps(50) !important;
+  display: inline-block;
+}

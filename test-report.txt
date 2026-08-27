@@ -1,0 +1,9 @@
+PASS required files exist
+PASS theme variables preserved
+PASS default deny is enabled
+PASS Marketplace allow rule is first
+PASS external navigation is denied
+PASS admin has wildcard permissions
+PASS portal JS contains kill switch and audit export
+
+7 passed, 0 failed

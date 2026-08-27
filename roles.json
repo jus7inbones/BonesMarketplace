@@ -1,0 +1,21 @@
+{
+  "viewer": [
+    "dashboard.read",
+    "search.read",
+    "listings.read",
+    "messages.read",
+    "audit.read"
+  ],
+  "operator": [
+    "dashboard.read",
+    "search.read",
+    "listings.read",
+    "listings.act",
+    "messages.read",
+    "messages.send",
+    "audit.read"
+  ],
+  "administrator": [
+    "*"
+  ]
+}

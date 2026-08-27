@@ -1,0 +1,28 @@
+{
+  "required": [
+    "timestamp",
+    "event",
+    "severity",
+    "result",
+    "actor",
+    "detail"
+  ],
+  "events": [
+    "ADMIN_LOGIN_SUCCESS",
+    "ADMIN_LOGIN_FAILURE",
+    "ADMIN_LOGOUT",
+    "SESSION_STARTED",
+    "SESSION_TIMEOUT",
+    "SESSION_KILLED",
+    "NAVIGATION_ALLOWED",
+    "NAVIGATION_BLOCKED",
+    "REDIRECT_BLOCKED",
+    "POPUP_BLOCKED",
+    "POLICY_CHANGE_ACCEPTED",
+    "POLICY_CHANGE_REJECTED",
+    "MARKETPLACE_SEARCH",
+    "LISTING_OPENED",
+    "MARKETPLACE_MESSAGE",
+    "AUDIT_EXPORTED"
+  ]
+}
